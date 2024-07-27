@@ -6,8 +6,8 @@
     <title>Notifications</title>
     <script>
         function handleNotificationClick(notification, id_) {
-            const button = document.querySelector(`#notification-${id_} button`);
-            button.disabled = true;
+            const notificationDiv = document.getElementById(`notification-${id_}`);
+            notificationDiv.style.pointerEvents = 'none';  // Disable further clicks
             fetch('/create_suggestion', {
                 method: 'POST',
                 headers: {
@@ -18,22 +18,47 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data.message);
-                const responseDiv = document.createElement('div');
-                responseDiv.textContent = data.message;
-                document.getElementById(`notification-${id_}`).appendChild(responseDiv);
+                notificationDiv.remove();  // Remove the original notification
+
+                // Create a new notification with the 'notification-second' class
+                const newNotificationDiv = document.createElement('div');
+                newNotificationDiv.className = 'notification-second';
+                newNotificationDiv.innerHTML = `<p>${data.message}</p>`;
+
+                // Append the new notification to the 'notification2-container'
+                document.getElementById('notification2-container').appendChild(newNotificationDiv);
             })
             .catch(error => console.error('Error:', error));
         }
     </script>
+    <style>
+        .notification {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .notification-second {
+            color: black;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        {% for notif in notifs %}
-            <div id="notification-{{ loop.index }}">
-                <p>{{ notif }}</p>
-                <button onclick="handleNotificationClick('{{ notif }}', {{ loop.index }})">Click me!</button>
-            </div>
-        {% endfor %}
+    <div id="notifications-container">
+        <div id="notification1-container">
+            {% if notifs|length > 0 %}
+                <div id="notification-0" class="notification" onclick="handleNotificationClick('{{ notifs[0] }}', 0)">
+                    <p>{{ notifs[0] }}</p>
+                </div>
+            {% endif %}
+        </div>
+        <div id="notification2-container">
+            {% if notifs|length > 1 %}
+                <div id="notification-1" class="notification-second" onclick="handleNotificationClick('{{ notifs[1] }}', 1)">
+                    <p>{{ notifs[1] }}</p>
+                </div>
+            {% endif %}
+        </div>
     </div>
 </body>
 </html>
