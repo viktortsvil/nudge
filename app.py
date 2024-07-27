@@ -16,9 +16,10 @@ def create_suggestion():
     # Perform the action you want when the notification is clicked
     print("Notification clicked!")
     js = request.json
-    print(js)
+    suggestion = generate_suggestions_from_notifications(js)
+    print(suggestion)
     #send to crew ai 
-    return jsonify({"message": "Notification handled"})
+    return jsonify({"message": suggestion})
 
 if __name__ == "__main__":
     app.run(debug=True)
