@@ -1,0 +1,1332 @@
+{
+    "2024-06-01T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    },
+    "2024-06-02T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    },
+    "2024-06-03T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    },
+    "2024-06-04T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    },
+    "2024-06-05T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    },
+    "2024-06-06T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    },
+    "2024-06-07T00:00:00": {
+        "wellbeing": {
+            "steps": {
+                "score": 0.83,
+                "goal": 10000,
+                "value": 5962.0,
+                "state": "medium",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 11.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.32,
+                "goal": 500,
+                "value": 94.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": null,
+                "goal": 30,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 0.54,
+                "goal": 480,
+                "value": 453.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            },
+            "sleep_duration": {
+                "score": 0.88,
+                "goal": 480,
+                "value": 432.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 0.91,
+                "goal": 1,
+                "value": 0.909,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": 0.83,
+                "goal": 10,
+                "value": 38.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.47,
+                "goal": 30,
+                "value": 433.6833333333,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": 1.0,
+                "goal": 90,
+                "value": 107.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": 0.9,
+                "goal": 120,
+                "value": 103.0,
+                "state": "high",
+                "unit": "minute"
+            }
+        },
+        "activity": {
+            "steps": {
+                "score": 0.7,
+                "goal": 10000,
+                "value": 3908.0,
+                "state": "low",
+                "unit": "count"
+            },
+            "active_hours": {
+                "score": 1.0,
+                "goal": 10,
+                "value": 10.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "active_calories": {
+                "score": 0.29,
+                "goal": 500,
+                "value": 80.0,
+                "state": "minimal",
+                "unit": "kcal"
+            },
+            "intense_activity_duration": {
+                "score": 0.3,
+                "goal": 30,
+                "value": 0.0,
+                "state": "minimal",
+                "unit": "minute"
+            },
+            "extended_inactivity": {
+                "score": 1.0,
+                "goal": 480,
+                "value": 791.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "floors_climbed": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "count"
+            }
+        },
+        "sleep": {
+            "sleep_duration": {
+                "score": 0.99,
+                "goal": 480,
+                "value": 470.0,
+                "state": "high",
+                "unit": "minute"
+            },
+            "sleep_regularity": {
+                "score": 1.0,
+                "goal": 1,
+                "value": 0.999,
+                "state": "high",
+                "unit": "index"
+            },
+            "sleep_continuity": {
+                "score": null,
+                "goal": 10,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "sleep_debt": {
+                "score": 1.0,
+                "goal": 0,
+                "value": 0.0,
+                "state": "high",
+                "unit": "hour"
+            },
+            "circadian_alignment": {
+                "score": 0.82,
+                "goal": 30,
+                "value": 112.0,
+                "state": "medium",
+                "unit": "minute"
+            },
+            "physical_recovery": {
+                "score": null,
+                "goal": 90,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            },
+            "mental_recovery": {
+                "score": null,
+                "goal": 120,
+                "value": null,
+                "state": null,
+                "unit": "minute"
+            }
+        }
+    }
+}
