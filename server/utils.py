@@ -1,10 +1,10 @@
 from typing import Any, List
 
+from server.api.get_notificaions import get_notifs
+
 
 def generate_notifications(data: Any, n: int = 1) -> List[str]:
-    return [
-        "You have been undersleeping in the last week!"
-    ] * n
+    return get_notifs(data, n)
 
 
 def generate_suggestions_from_notifications(suggestion: str) -> str:
