@@ -1,5 +1,8 @@
 from flask import Flask, render_template, jsonify, request
 from server.utils import generate_notifications
+from flask import Flask, render_template, request
+
+from server.utils import generate_notifications, generate_suggestions_from_notifications
 
 app = Flask(__name__)
 
