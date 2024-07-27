@@ -2,13 +2,15 @@ from pprint import pprint
 
 from flask import Flask
 
+from server.utils import generate_notifications
 
 app = Flask(__name__)
 
 
-@app.route("/", methods=["GET"])
+@app.route("/notifications/", methods=["GET"])
 def hello_world():
-    return f"<p>hello world</p>"
+    notifs = generate_notifications(None)
+    return notifs
 
 
 if __name__ == "__main__":
