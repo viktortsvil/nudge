@@ -14,6 +14,7 @@ def create_suggestion():
     print("Notification clicked!")
     js = request.json
     print(js)
+    #send to crew ai 
     return jsonify({"message": "Notification handled"})
 
 if __name__ == "__main__":
