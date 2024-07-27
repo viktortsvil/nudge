@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <script>
+        function handleNotificationClick(notification, id_) {
+            fetch('/create_suggestion', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ notification: notification })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data.message);
+                const responseDiv = document.createElement('div');
+                responseDiv.textContent = data.message;
+                document.getElementById(`notification-${id_}`).appendChild(responseDiv);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+    <div>
+        {% for notif in notifs %}
+            <div id="notification-{{ loop.index }}">
+                <p>{{ notif }}</p>
+                <button onclick="handleNotificationClick('{{ notif }}', {{loop.index}})">Click me!</button>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
