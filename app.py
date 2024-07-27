@@ -4,12 +4,13 @@ from flask import Flask, render_template, jsonify, request
 import requests
 
 from server.api.get_notificaions import get_notifs
-from server.utils import generate_notifications
 import os
 
 from server.utils import generate_notifications, generate_suggestions_from_notifications, fetch_web_api
 
 app = Flask(__name__)
+data = json.load(open('server/api/sampleSahhaProcessed.json'))
+
 
 @app.route("/notifications/", methods=["GET"])
 def notifications():
@@ -19,13 +20,11 @@ def notifications():
 
 @app.route('/create_suggestion', methods=['POST'])
 def create_suggestion():
-    # Perform the action you want when the notification is clicked
     print("Notification clicked!")
     js = request.json
-    suggestion = generate_suggestions_from_notifications(js)
+    suggestion = generate_suggestions_from_notifications(data, js.get('notification', ''))
     print(suggestion)
-    #send to crew ai 
-    return jsonify({"message": suggestion})
+    return render_template('suggestion.html', suggestion=suggestion)
 
 @app.route('/top-tracks', methods=['GET'])
 def get_top_tracks():
