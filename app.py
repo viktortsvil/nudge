@@ -26,31 +26,6 @@ def create_suggestion():
     print(suggestion)
     return render_template('suggestion.html', suggestion=suggestion)
 
-@app.route('/top-tracks', methods=['GET'])
-def get_top_tracks():
-    try:
-        # Endpoint reference: https://developer.spotify.com/documentation/web-api/reference/get-users-top-artists-and-tracks
-        top_tracks = fetch_web_api('v1/me/top/tracks?time_range=long_term&limit=5')
-        formatted_tracks = [
-            f"{track['name']} by {', '.join(artist['name'] for artist in track['artists'])}"
-            for track in top_tracks['items']
-        ]
-        return jsonify(formatted_tracks)
-    except requests.exceptions.HTTPError as e:
-        return jsonify({'error': str(e)}), e.response.status_code
-
-@app.route('/top-artists', methods=['GET'])
-def get_top_artists():
-    try:
-        # Endpoint reference: https://developer.spotify.com/documentation/web-api/reference/get-users-top-artists-and-tracks
-        top_artists = fetch_web_api('v1/me/top/artists?time_range=long_term&limit=5')
-        formatted_artists = [
-            f"{artist['name']}" for artist in top_artists['items']
-        ]
-        return jsonify(formatted_artists)
-    except requests.exceptions.HTTPError as e:
-        return jsonify({'error': str(e)}), e.response.status_code
-
 if __name__ == "__main__":
     app.run(
         debug=True,
