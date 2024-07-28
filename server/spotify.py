@@ -52,6 +52,6 @@ def get_top_artists() -> list[str]:
 
         result = formatted_artists
     except Exception as e:
-        result = ['Taylor Swift']
+        result = ['Taylor Swift', 'Kendrick Lamar', 'Jeremy Zucker', 'La Femme', 'Billie Eilish']
     print(f"FOUND ARTISTS: {result}")
     return result

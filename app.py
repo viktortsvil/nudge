@@ -7,22 +7,7 @@ from server.api.suggestion_creator import get_suggestions
 from server.spotify import get_top_artists
 from server.utils import generate_notifications, generate_suggestions_from_notifications
 
-from openai import OpenAI
-import agentops
 import os
-from dotenv import load_dotenv
-from agentops import record_function
-
-agentops.init(os.getenv('AGENTOPS_API_KEY'))
-
-# Create new session
-agentops.start_session(tags=["openai-gpt-notebook-events"])
-
-
-@record_function("add numbers")
-def add(x, y):
-    return x + y
-
 
 
 app = Flask(__name__)
@@ -51,4 +36,3 @@ if __name__ == "__main__":
 
 
 
-agentops.end_session("Success")

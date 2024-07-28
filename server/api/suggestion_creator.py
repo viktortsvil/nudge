@@ -1,13 +1,16 @@
+import os
+
 from crewai_tools import SerperDevTool
 from crewai import Agent, Task, Crew, Process
 from langchain.output_parsers.json import parse_json_markdown
+from langchain_groq import ChatGroq
 
 search_tool = SerperDevTool()
 
 
 def get_suggestions(js, suggestion, artists, city='San Francisco') -> str:
 
-    artists = [artists[0]]
+    artists = artists[0:3]
     # Define your agents with roles and goals
     researcher = Agent(
         role='Activity Researcher',
@@ -16,7 +19,7 @@ def get_suggestions(js, suggestion, artists, city='San Francisco') -> str:
         verbose=True,
         allow_delegation=False,
         max_iter=2,
-        tools=[search_tool]
+        tools=[search_tool],
     )
     writer = Agent(
         role='Content Writer',
@@ -25,7 +28,7 @@ def get_suggestions(js, suggestion, artists, city='San Francisco') -> str:
         verbose=True,
         allow_delegation=False,
         tools=[search_tool],
-        max_iter=6
+        max_iter=6,
     )
 
     # Create tasks for your agents
