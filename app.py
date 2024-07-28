@@ -1,10 +1,10 @@
 import json
 
-from flask import Flask, render_template, jsonify, request
 
+from flask import Flask, render_template, request
 
-from server.api.get_notifications import get_notifs
-
+from server.api.suggestion_creator import get_suggestions
+from server.spotify import get_top_artists
 from server.utils import generate_notifications, generate_suggestions_from_notifications
 
 app = Flask(__name__)
@@ -21,7 +21,7 @@ def notifications():
 def create_suggestion():
     print("Notification clicked!")
     js = request.json
-    suggestion = generate_suggestions_from_notifications(data, js.get('notification', ''))
+    suggestion = get_suggestions(str(data), js.get('notification', ''), get_top_artists())
     print(suggestion)
     return render_template('suggestion.html', suggestion=suggestion)
 

@@ -43,7 +43,7 @@ personalizer = Agent(
 # Instantiate your crew with a sequential process
 
 def get_notifs(data, n) -> List[str]:
-    top_artists = str(get_top_artists())
+    top_artists = get_top_artists()
     task1 = Task(
         description=f"""Provide {n} funny descriptions of factors that bring the scores down in a pop-up notificaiton format given the following json of health scores: {str(data)}\n\n\n Use funny casual language and don't mention actual scores. Be funny but not passive aggressive. Each sentence is a different notification so they should not be related to each other""",
         expected_output=f"{n} notification texts describing factors bringing the health scores down. Don't provide any other text; sentences should be independent from each other; Don't order notifications, prepend any text, or format them in any way. Make sure to separate them with line breaks",
