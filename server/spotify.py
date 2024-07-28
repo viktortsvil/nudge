@@ -1,8 +1,19 @@
-from server.utils import fetch_web_api
-
 from flask import Flask, render_template, jsonify, request
 
 import requests
+import os
+
+SPOTIFY_TOKEN = os.environ['SPOTIFY_TOKEN']
+
+def fetch_web_api(endpoint, method='GET', body=None):
+    url = f'https://api.spotify.com/{endpoint}'
+    headers = {
+        'Authorization': f'Bearer {SPOTIFY_TOKEN}',
+        'Content-Type': 'application/json'
+    }
+    response = requests.request(method, url, headers=headers, json=body)
+    response.raise_for_status()
+    return response.json()
 
 def get_top_tracks():
     try:

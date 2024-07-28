@@ -1,12 +1,11 @@
 import json
 
 from flask import Flask, render_template, jsonify, request
-import requests
 
-from server.api.get_notificaions import get_notifs
-import os
 
-from server.utils import generate_notifications, generate_suggestions_from_notifications, fetch_web_api
+from server.api.get_notifications import get_notifs
+
+from server.utils import generate_notifications, generate_suggestions_from_notifications
 
 app = Flask(__name__)
 data = json.load(open('server/api/sampleSahhaProcessed.json'))
